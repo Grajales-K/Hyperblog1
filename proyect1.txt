@@ -1,1 +1,5 @@
 this is a test about how to create a repo from the terminal
+
+adding extra information to check when we are modifiend the document
+
+third commit 
