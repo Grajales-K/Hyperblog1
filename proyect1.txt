@@ -2,4 +2,13 @@ this is a test about how to create a repo from the terminal
 
 adding extra information to check when we are modifiend the document
 
-third commit 
+we deleted this line
+
+While a number of definitions of artificial intelligence (AI)
+ have surfaced over the last few decades, John McCarthy offers 
+ the following definition in this 2004 paper (link resides outside 
+ ibm.com), " It is the science and engineering of making intelligent 
+ machines, especially intelligent computer programs. It is related
+ to the similar task of using computers to understand human 
+ intelligence, but AI does not have to confine itself to methods
+  that are biologically observable."
