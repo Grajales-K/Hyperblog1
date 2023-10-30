@@ -1,8 +1,8 @@
 
 #container{
-    border: 1px solid #dae0c4;
+    border: 1px solid rgb(82, 217, 229);
     padding: 2rem;
-    color: #d97eee;
+    color: #664df6;
 
 
 }
@@ -18,7 +18,7 @@ body {
     font-weight: bold;
     margin: 0;
     padding: 1rem;
-    color: aquamarine;
+    color: rgb(82, 217, 229);
     display: flex;
     justify-content: space-between;
 }
@@ -31,7 +31,7 @@ h1 {
     left: 40%; 
     font-size: 40px; 
     font-family: Arial, Helvetica, sans-serif; 
-    background: linear-gradient( to right, #f32170, #ff6b08, #cf23cf, #eedd44); 
+    background: linear-gradient( to right, #05f411, #1ee359, #cf23cf, #03fd42); 
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text;
 }
