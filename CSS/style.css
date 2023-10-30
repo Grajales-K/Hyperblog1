@@ -2,14 +2,28 @@
 #container{
     border: 1px solid #dae0c4;
     padding: 2rem;
+    color: #d97eee;
+
 
 }
 
 body { 
     background: rgb(39, 39, 39); 
-    color: #d97eee;
+    /* color: #d97eee; */
     text-align: center;
 } 
+
+#cabecera{
+    background-color: #553a556f;
+    font-weight: bold;
+    margin: 0;
+    padding: 1rem;
+    color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 h1 {
     /* position: absolute;  */
