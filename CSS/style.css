@@ -2,13 +2,12 @@
 #container{
     border: 1px solid rgb(82, 217, 229);
     padding: 2rem;
-    /* color: #664df6; */
-    color: #8a36d0;
+    color: #b56bf6;
+    font-size: 1rem ;
 }
 
 body { 
-    background: rgb(39, 39, 39); 
-    /* color: #d97eee; */
+    background: rgb(44, 43, 43); 
     text-align: center;
 } 
 
@@ -33,4 +32,8 @@ h1 {
     background: linear-gradient( to right, #05f411, #054bd7, #cf23cf, #b53b0f); 
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text;
+}
+
+#post{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
