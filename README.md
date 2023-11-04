@@ -1,6 +1,32 @@
 # Hyperblog
 
 
+
+# Helpful Commands for Collaborating on Large GitHub Projects
+
+Below are some Git commands that can prove useful when collaborating on GitHub projects of significant size:
+
+| Command                            | Description                                                                   |
+| ---------------------------------- | ----------------------------------------------------------------------------- |
+| `git log --oneline`                | Displays the commit ID and commit title.                                    |
+| `git log --decorate`               | Shows where the HEAD pointer is located in the log.                         |
+| `git log --stat`                   | Provides a brief explanation of the number of changed lines.                |
+| `git log -p`                       | Shows the number of changed lines and the content of the changes.           |
+| `git shortlog`                     | Lists commits made by users with their names and commit titles.             |
+| `git log --graph --oneline --decorate` | Visualizes the log graphically with decorations.                      |
+| `git log --pretty=format:"%cn made a commit %h on %cd"` | Allows custom formatting of commit messages.         |
+| `git log -3`                       | Limits the output to the last 3 commits.                                     |
+| `git log --after="2018-01-02"`     | `git log --after="today"` and `git log --after="2018-01-02" --before="today"` | Filters commits by dates.               |
+| `git log --author="Author Name"`    | Shows commits made by a specific author.                                    |
+| `git log --grep="KEYWORD"`         | Searches for commits with an exact match to the provided message.          |
+| `git log --grep="KEYWORD" -i`      | Searches for commits regardless of case sensitivity in the message.         |
+| `git log file.html`                | Searches for commits related to a specific file.                            |
+| `git log -S "By content"`          | Searches for commits with specific content within files.                   |
+| `git log > log.txt`                | Saves the log output to a text file named `log.txt`.                        |
+
+
+---
+
 # Comandos útiles para colaborar en proyectos grandes en GitHub
 
 A continuación, se presentan algunos comandos de Git que pueden resultar útiles cuando colaboras en proyectos de GitHub de gran tamaño:
@@ -22,6 +48,9 @@ A continuación, se presentan algunos comandos de Git que pueden resultar útile
 | `git log archivo.html`              | Busca commits relacionados con un archivo específico.                   |
 | `git log -S "Por contenido"`        | Busca commits con un contenido específico dentro de los archivos.       |
 | `git log > log.txt`                | Guarda la salida del registro en un archivo de texto llamado `log.txt`.  |
+
+
+
 
 
 
